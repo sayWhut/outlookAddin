@@ -21,8 +21,8 @@
 
   <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
   <!-- <IconUrl DefaultValue="https://127.0.0.1:8080/assets/icon-32.png" />  -->
-  <IconUrl DefaultValue="https://127.0.0.1:8080/assets/whut_logo.png" />
-  <HighResolutionIconUrl DefaultValue="https://127.0.0.1:8080/assets/hi-res-icon.png"/>
+  <IconUrl DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/whut_logo.png" />
+  <HighResolutionIconUrl DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/hi-res-icon.png"/>
 
   <!--If you plan to submit this add-in to the Office Store, uncomment the SupportUrl element below
   <SupportUrl DefaultValue="www.whut.com" />  -->
@@ -46,7 +46,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://127.0.0.1:8080/index.html"/>
+        <SourceLocation DefaultValue="https://cskura-outlookaddin.azurewebsites.net/index.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -207,25 +207,25 @@
 
     <Resources>
       <bt:Images>
-        <bt:Image id="icon16" DefaultValue="https://127.0.0.1:8080/assets/icon-16.png"/>
-        <bt:Image id="icon32" DefaultValue="https://127.0.0.1:8080/assets/icon-32.png"/>
-        <bt:Image id="icon80" DefaultValue="https://127.0.0.1:8080/assets/icon-80.png"/>
-        <bt:Image id="blue-icon-16" DefaultValue="https://127.0.0.1:8080/assets/icon-16.png"/>
-        <bt:Image id="blue-icon-32" DefaultValue="https://127.0.0.1:8080/assets/icon-32.png"/>
-        <bt:Image id="blue-icon-80" DefaultValue="https://127.0.0.1:8080/assets/icon-80.png"/>
-        <bt:Image id="red-icon-16" DefaultValue="https://127.0.0.1:8080/assets/icon-16.png"/>
-        <bt:Image id="red-icon-32" DefaultValue="https://127.0.0.1:8080/assets/icon-32.png"/>
-        <bt:Image id="red-icon-80" DefaultValue="https://127.0.0.1:8080/assets/icon-80.png"/>
-        <bt:Image id="green-icon-16" DefaultValue="https://127.0.0.1:8080/assets/icon-16.png"/>
-        <bt:Image id="green-icon-32" DefaultValue="https://127.0.0.1:8080/assets/icon-32.png"/>
-        <bt:Image id="green-icon-80" DefaultValue="https://127.0.0.1:8080/assets/icon-80.png"/>
+        <bt:Image id="icon16" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-16.png"/>
+        <bt:Image id="icon32" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-32.png"/>
+        <bt:Image id="icon80" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-80.png"/>
+        <bt:Image id="blue-icon-16" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-16.png"/>
+        <bt:Image id="blue-icon-32" DefaultValue="https://cskura-outlookaddin.azurewebsites.netassets/icon-32.png"/>
+        <bt:Image id="blue-icon-80" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-80.png"/>
+        <bt:Image id="red-icon-16" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-16.png"/>
+        <bt:Image id="red-icon-32" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-32.png"/>
+        <bt:Image id="red-icon-80" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-80.png"/>
+        <bt:Image id="green-icon-16" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-16.png"/>
+        <bt:Image id="green-icon-32" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-32.png"/>
+        <bt:Image id="green-icon-80" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="functionFile" DefaultValue="https://127.0.0.1:8080/function-file.html"/>
-        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://127.0.0.1:8080/index.html"/>
-        <bt:Url id="composeTaskPaneUrl" DefaultValue="https://127.0.0.1:8080/index.html"/>
-        <bt:Url id="functionFile" DefaultValue="https://127.0.0.1:8080/index.html"/>
-        <bt:Url id="readTaskPaneUrl" DefaultValue="https://127.0.0.1:8080/index.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/function-file.html"/>
+        <bt:Url id="messageReadTaskPaneUrl" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/index.html"/>
+        <bt:Url id="composeTaskPaneUrl" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/index.html"/>
+        <bt:Url id="functionFile" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/index.html"/>
+        <bt:Url id="readTaskPaneUrl" DefaultValue="https://cskura-outlookaddin.azurewebsites.net/index.html"/>
     </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="My Add-in Group"/>
